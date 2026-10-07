@@ -14,13 +14,16 @@ The fact table stores sales transactions, while dimension tables provide informa
 
 ## Star Schema
 
+<pre>
                  dim_customer
                       |
                       |
-dim_date ------ fact_sales ------ dim_product
+                      |
+dim_date -------- fact_sales -------- dim_product
                       |
                       |
                   dim_store
+</pre>
 
 ## Database Structure
 
@@ -115,7 +118,8 @@ week5
 │   └── schema.sql
 ├── queries
 │   └── week5_queries.sql
-└── README.md
+├── README.md
+└── .gitignore
 
 ## Database Setup
 
