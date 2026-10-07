@@ -113,6 +113,7 @@ The final dimensional model is intentionally designed for analytical queries and
 
 ## Project Structure
 
+<pre>
 week5
 ├── database
 │   └── schema.sql
@@ -120,6 +121,7 @@ week5
 │   └── week5_queries.sql
 ├── README.md
 └── .gitignore
+</pre>
 
 ## Database Setup
 
